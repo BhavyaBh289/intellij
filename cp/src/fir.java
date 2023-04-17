@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import javax.swing.*;
 
 public class fir extends JFrame {
-    // Define data structure to store FIR records
     static ArrayList<String> firRecords = new ArrayList<String>();
 
     // GUI components
@@ -112,6 +111,3 @@ public class fir extends JFrame {
         new fir();
     }
 }
-
-
-

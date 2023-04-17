@@ -1,10 +1,8 @@
 import javax.swing.*;
 import java.awt.Color;
 
-public class Main
-{
-    public static void main(String[] args)
-    {
+public class Main{
+    public static void main(String[] args){
         JFrame f = new JFrame();
         f.setTitle("FIR Registration Page");
         f.getContentPane().setBackground(Color.BLUE);
@@ -29,7 +27,8 @@ public class Main
 
         JLabel l3 = new JLabel("FIR NO:");
         l3.setBounds(600,300,200,40);
-        f.add(l3);
+        f.add(l3);            // Collect FIR details from user
+
         JTextField t3 = new JTextField();
         t3.setBounds(700,300,200,30);
         f.add(t3);
